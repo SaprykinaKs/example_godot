@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://bk76d703udjp3"]
+
+[ext_resource type="Script" path="res://ababa/ababa.gd" id="1_gcc3p"]
+[ext_resource type="Texture2D" uid="uid://by2ixokaoifv0" path="res://ababa/1.png" id="2_4phvi"]
+[ext_resource type="Texture2D" uid="uid://b68tappvdifh8" path="res://ababa/2.png" id="3_rkqcn"]
+[ext_resource type="Texture2D" uid="uid://db0v1i6fv6k4u" path="res://ababa/3.png" id="4_utcih"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3fof7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4phvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rkqcn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_utcih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rkqcn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jfw1d"]
+radius = 7.0
+
+[node name="ababa" type="CharacterBody2D"]
+texture_filter = 6
+script = ExtResource("1_gcc3p")
+
+[node name="ababa" type="AnimatedSprite2D" parent="."]
+texture_filter = 5
+use_parent_material = true
+scale = Vector2(0.595833, 0.566666)
+sprite_frames = SubResource("SpriteFrames_3fof7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-2.27374e-13, -4)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_jfw1d")

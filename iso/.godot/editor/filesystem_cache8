@@ -1,0 +1,42 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1747036384
+::res://ababa/::1747034748
+1.png::CompressedTexture2D::4127218690361412375::1709541506::1709541514::1::::<><>::
+2.png::CompressedTexture2D::4631553737199432179::1709541507::1709541514::1::::<><>::
+3.png::CompressedTexture2D::7282382294390662206::1709541507::1709541514::1::::<><>::
+ababa.gd::GDScript::-1::1709391692::0::1::::<>CharacterBody2D<>::
+ababa.png::CompressedTexture2D::5134340237535177311::1709315904::1709391428::1::::<><>::
+ababa.tscn::PackedScene::3156258513027175254::1747034748::0::1::::<><>::res://ababa/ababa.gd<>uid://by2ixokaoifv0::::res://ababa/1.png<>uid://b68tappvdifh8::::res://ababa/2.png<>uid://db0v1i6fv6k4u::::res://ababa/3.png
+::res://Characters/::1747034813
+Basic Charakter Actions.png::CompressedTexture2D::3474560214640505389::1646989140::1709297130::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::7766410264999036701::1644631982::1709297130::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::4494479909763048500::1688763716::1709297130::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::2527225933818282731::1686872718::1709297130::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::5736031459125417798::1642814010::1709297130::1::::<><>::
+player.gd::GDScript::-1::1709558276::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8940509337598269157::1747034813::0::1::::<><>::uid://diwdv3uatou6p::::res://Characters/Basic Charakter Spritesheet.png<>res://Characters/player.gd<>uid://bprdq77pk7w0d::::res://Characters/Basic Charakter Actions.png
+scene.tscn::PackedScene::8595183431191989940::1747034748::0::1::::<><>::uid://3smnswamhre0::::res://Tilesets/COLWater.png<>uid://bijxfms1tv8od::::res://Tilesets/Water.png<>uid://dhw3p31ico82s::::res://Tilesets/NOCOLHills.png<>uid://b1xgs53wgmhug::::res://Tilesets/Hills.png<>uid://d0m35aima4118::::res://Characters/player.tscn<>uid://bqttoj8sj56um::::res://Objects/Wood_Bridge.png<>uid://b504bl2etlhf6::::res://Tilesets/Tilled_Dirt.png<>uid://d1ojdihpdjete::::res://Tilesets/NOCOLTilled_Dirt.png<>uid://b5eu22pjhcuhx::::res://Tilesets/Fences.png<>uid://bk76d703udjp3::::res://ababa/ababa.tscn
+Tools.png::CompressedTexture2D::8973423649601151877::1646989362::1709297130::1::::<><>::
+::res://Objects/::1709297130
+Basic_Furniture.png::CompressedTexture2D::3815067114960428230::1640144006::1709297130::1::::<><>::
+Basic_Grass_Biom_things.png::CompressedTexture2D::1324887727023137303::1641356364::1709297130::1::::<><>::
+Basic_Plants.png::CompressedTexture2D::4853522639706270711::1640141644::1709297130::1::::<><>::
+Basic_tools_and_meterials.png::CompressedTexture2D::7946096215836871359::1646989688::1709297130::1::::<><>::
+Chest.png::CompressedTexture2D::4045255050567259076::1643086286::1709297130::1::::<><>::
+Egg_item.png::CompressedTexture2D::2250778962903712652::1686873678::1709297130::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::2902321456877102103::1688763542::1709297130::1::::<><>::
+Paths.png::CompressedTexture2D::4696107302488810723::1642813164::1709297130::1::::<><>::
+Simple_Milk_and_grass_item.png::CompressedTexture2D::6914136366327868219::1642893486::1709297130::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::3549844507725763632::1642813230::1709297130::1::::<><>::
+::res://Tilesets/::1709314836
+Bitmask references 1.png::CompressedTexture2D::6902047252219914138::1702880142::1709297130::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::4784334419426643714::1702880146::1709297130::1::::<><>::
+COLWater.png::CompressedTexture2D::2003199220094274653::1640142522::1709314836::1::::<><>::
+Fences.png::CompressedTexture2D::4501607501861968437::1640142932::1709297130::1::::<><>::
+Grass.png::CompressedTexture2D::2306852322331616::1702894852::1709297130::1::::<><>::
+Hills.png::CompressedTexture2D::4259209372835310538::1702894462::1709297130::1::::<><>::
+NOCOLHills.png::CompressedTexture2D::7697728641026343612::1702894462::1709302332::1::::<><>::
+NOCOLTilled_Dirt.png::CompressedTexture2D::9013625516227926322::1702895516::1709302332::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::4545458634943842861::1702895516::1709297130::1::::<><>::
+Water.png::CompressedTexture2D::2967916911681307899::1640142522::1709297130::1::::<><>::
+Wooden House.png::CompressedTexture2D::7178114551910678737::1640144046::1709297130::1::::<><>::

@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1747035461
+export_presets.cfg::TextFile::-1::1709293374::0::1::::<><>::
+::res://ababa/::1714730562
+ababa.png::CompressedTexture2D::7400634474755086991::1709122358::1709294182::1::::<><>::
+body.gd::GDScript::-1::1709540052::0::1::::<>CharacterBody2D<>::
+body.tscn::PackedScene::728437289082587289::1714730562::0::1::::<><>::uid://ddo6msbuvi7ux::::res://ababa/ababa.png<>res://ababa/body.gd
+::res://scene/::1714730562
+control.tscn::PackedScene::4630342831356053667::1714730562::0::1::::<><>::uid://km4ixva0sphp::::res://ababa/body.tscn<>uid://cb4s5ebj3vs2w::::res://TileSets/Terrain (32x32).png
+tile_map.tscn::PackedScene::9136806211238644587::1709205327::0::1::::<><>::uid://cb4s5ebj3vs2w::::res://TileSets/Terrain (32x32).png
+::res://TileSets/::1709139472
+Terrain (32x32).png::CompressedTexture2D::4904043857664299580::1571121044::1709129753::1::::<><>::

@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://km4ixva0sphp"]
+
+[ext_resource type="Texture2D" uid="uid://ddo6msbuvi7ux" path="res://ababa/ababa.png" id="1_0gfkk"]
+[ext_resource type="Script" path="res://ababa/body.gd" id="1_vmgkg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tcr1t"]
+radius = 23.0
+height = 80.0
+
+[node name="pllayer" type="CharacterBody2D"]
+script = ExtResource("1_vmgkg")
+
+[node name="Ababa" type="Sprite2D" parent="."]
+texture_filter = 4
+use_parent_material = true
+position = Vector2(6.95, 3.32375)
+scale = Vector2(0.0778704, 0.075118)
+texture = ExtResource("1_0gfkk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+use_parent_material = true
+position = Vector2(7, 4)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_tcr1t")
